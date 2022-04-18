@@ -1,0 +1,76 @@
+/* Removal of auto padding and margins */
+body {
+    margin: 0;
+}
+
+/* Header section */
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+}
+/* Auto header */
+.auto {
+    background: linear-gradient(to right, #046b40, #C2e48b);
+    color: white;
+}
+/* Sunny header */
+.sunny {
+    background: linear-gradient(to right, #F99105, #F0f579);
+    color: white;
+}
+/* Rainy header */
+.rainy {
+    background: linear-gradient(to right, #0b038c, #107eb1);
+    color: white;
+}
+/* Snowy header */
+.snowy {
+    background: linear-gradient(to right, #Adadb1, white);
+}
+
+/* City search section */
+#column-one {
+    margin-left: 10px;
+    width: 25%;
+    text-align: center;
+}
+.search-header {
+    font-size: 30px;
+}
+.city-search {
+    border-bottom: solid;
+}
+.city-form, .btn-auto {
+    margin: 0;
+    padding: 0;
+}
+.city-form, .btn-auto {
+    display: flex;
+    margin: 15px auto;
+    padding: 10px 0;
+}
+.city-form {
+    width: 90%;
+}
+.btn-auto {
+    width: 91.5%;
+    background: linear-gradient(to right, #046b40, #388a53);
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 85px;
+}
+input.city-form {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+}
+
+.displayed-city {
+    width: 65%;
+}
+
