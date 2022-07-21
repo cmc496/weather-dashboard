@@ -14,3 +14,4 @@ This project is a weather dashboard that allows the user to search a city and fi
 https://cmc496.github.io/weather-dashboard/
 
 ## Screenshot:
+![Weather-Dashboard-Screenshot](https://user-images.githubusercontent.com/99096273/180128773-9a82f0c0-4cd3-4f78-a39b-5645b746bad9.png)
