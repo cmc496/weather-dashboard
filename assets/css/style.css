@@ -28,12 +28,21 @@ h1 {
 .snowy {
     background: linear-gradient(to right, #Adadb1, white);
 }
+/* Night header */
+.night {
+    background: linear-gradient(to right, black, #092733);
+    color: white;
+}
 
 /* City search section */
 #column-one {
     margin-left: 10px;
     width: 25%;
-    text-align: center;
+    text-align: center;;
+}
+
+#columns {
+    display: flex;
 }
 .search-header {
     font-size: 30px;
@@ -42,24 +51,61 @@ h1 {
     border-bottom: solid;
 }
 
-.city-form, .btn-auto {
+.city-form {
     display: flex;
     margin: 15px auto;
     padding: 10px 0;
 }
-.btn-auto {
-    padding-left: 35%;
-}
+
 .city-form {
     width: 90%;
 }
-.btn-auto {
+.btn {
     width: 91.5%;
-    background: linear-gradient(to right, #046b40, #388a53);
-    color: white;
     border-radius: 6px;
     font-size: 18px;
+    margin-bottom: 15px
 }
+/* btn gradients */
+.auto-btn {
+    background: linear-gradient(to right, #046b40, #388a53);
+}
+.sunny-btn {
+    background: linear-gradient(to right, #F99105, #F0f579);
+}
+.rainy-btn {
+    background: linear-gradient(to right, #0b038c, #107eb1);
+}
+.snowy-btn {
+    background: linear-gradient(to right, #Adadb1, white);
+}
+.night-btn {
+    background: linear-gradient(to right, black, #092733);
+}
+
+.auto-btn, .sunny-btn, .rainy-btn, .snowy-btn, .night-btn {
+    color: white;
+}
+
+/* card gradients
+.auto-card {
+    background: linear-gradient(to right, #046b40, #388a53);
+}
+.sunny-card {
+    background: linear-gradient(to right, #F99105, #F0f579);
+}
+.rainy-card {
+    background: linear-gradient(to right, #0b038c, #107eb1);
+}
+.snowy-card {
+    background: linear-gradient(to right, #Adadb1, white);
+}
+.night-card {
+    background: linear-gradient(to right, black, #092733);
+}
+.auto-card, .sunny-card, .rainy-card, .night-card {
+    color: white;
+} */
 
 input.city-form {
     text-align: center;
@@ -74,3 +120,7 @@ ul {
     width: 65%;
 }
 
+#searched {
+    display: flex;
+    flex-direction: column;
+}
