@@ -50,7 +50,7 @@ var UV = function(uv) {
     if (uvI < 4) {
         uvBackground = "bg-success";
     }
-    else if (uvI <= 6) {
+    else if (uvI < 8) {
         uvBackground = "bg-warning";
     }
     else if (uvI >= 8) {
@@ -59,7 +59,6 @@ var UV = function(uv) {
     else {
         uvBackground = "bg-dark";
     }
-
     return uvBackground;
 };
 
